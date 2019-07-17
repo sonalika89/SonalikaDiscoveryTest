@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DisoveryTestsuit" thread-count="3" verbose="1" >
+<listeners>
+    <listener class-name="com.discovery.qa.analyzer.Retrytransformer"/>
+</listeners> 
+  
+<test name="DisoveryTestcases">
+
+<classes>
+   <class name="com.discovery.qa.test.HomePage"/>
+</classes>
+
+</test>
+</suite>
